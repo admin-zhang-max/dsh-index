@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "title": { "en": "My DSH Plugins", "zh": "我的 DSH 插件" },
+  "description": { "en": "A personal index of DSH bundles", "zh": "个人维护的 DSH 插件索引" },
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "en": "Interface", "zh": "界面" } },
+      "pet": { "title": { "en": "Pets", "zh": "桌宠" } }
+    },
+    "labels": {
+      "personal": { "title": { "en": "Personal", "zh": "自用" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-pet",
+      "title": { "en": "dsh-pet", "zh": "大肥鱼桌宠" },
+      "description": {
+        "en": "A blue fish that lives in DSH: desktop pet, wallet helper, idle chatter.",
+        "zh": "赖在 DSH 里的蓝色大肥鱼：桌宠、钱包打理、闲时碎碎念。"
+      },
+      "author": "PC2005-cloud",
+      "homepage": "https://github.com/PC2005-cloud/dsh-pet#readme",
+      "repository": { "url": "https://github.com/PC2005-cloud/dsh-pet" },
+      "metadata": {
+        "category": "pet",
+        "labels": ["personal"],
+        "keywords": ["pet", "desktop", "widget"]
+      },
+      "dist-tags": { "latest": "0.4.3" },
+      "versions": [
+        {
+          "version": "0.4.3",
+          "publishTimestamp": 1793805214,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0 <1.0.0" }
+        }
+      ]
+    },
+    {
+      "name": "dsh-whale-widget",
+      "title": { "en": "Whale Balance Widget", "zh": "余额小鲸鱼" },
+      "description": {
+        "en": "A whale widget in the bottom-right corner showing balance and daily usage.",
+        "zh": "右下角的余额小鲸鱼挂件：余额、今日已用、峰谷定价与自定义气泡。"
+      },
+      "author": "MeteorNOX",
+      "homepage": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget#readme",
+      "repository": { "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget" },
+      "metadata": {
+        "category": "ui",
+        "labels": ["personal"],
+        "keywords": ["balance", "widget", "whale"]
+      },
+      "dist-tags": { "latest": "0.4.2" },
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1791721632,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0 <1.0.0" }
+        }
+      ]
+    }
+  ]
+}
